@@ -1,4 +1,4 @@
-# GRIBを処理するためのベース環境
+# GRIBを処理するためのベース
 - Oracle Linux8
 - Python3.12
 - gdal(latest)
