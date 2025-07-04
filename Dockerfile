@@ -55,7 +55,7 @@ RUN cd /root && \
 
 # gdalのインストール
 RUN cd /root && \
-    git clone https://github.com/OSGeo/gdal && \
+    git clone https://github.com/OSGeo/gdal.git -b v3.11.1 && \
     cd gdal && \
     mkdir build && \
     cd build && \
